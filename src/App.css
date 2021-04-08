@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  
+}
+body{
+  background-color: grey;
+
+}
+.facebook{
+color: salmon;
+padding: 1px;
+margin: 1px;
+justify-items: center;
+
+text-decoration: none;
+}
+
+.youtube{
+  color: salmon;
+  padding: 1px;
+  margin: 1px;
+  justify-items: center;
+  text-decoration: none;
+  
+  
+  }
+  .insta{
+    color: salmon;
+    padding: 1px;
+    margin: 1px;
+    justify-items: center;
+    
+  text-decoration: none;
+    
+    }
+
+.side-info{
+padding: 5px;
+margin-top: 0px;
+padding-top: 0px;
+content: icon;
+}
+
+.side-info1{ 
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid;
+  padding: 20px;
+
+  margin-left: 425px;
+  margin-top: -95px;
+  
+}
+.side-info2{ 
+  
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid;
+  padding: 20px;
+
+  margin-left: 825px;
+  margin-top: -504spx;
+
+  
+}
+.sidebar{
+  background-color: rgb(60, 115, 167);
+
+  padding: 30px;
+  margin: 112px 20px 0px 20px;
+  height: 500px;
+
+
+}
+
+.image1{
+  background-color: blue;
+  padding: 20px;
+  margin: 20px;
+  height: 100px;
+}
+.name{
+  background-position: 0ex;
+  background-position-x: 11px;
+  margin-top: 150px;
+  margin-left: 330px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:yellowgreen;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
